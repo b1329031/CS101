@@ -1,1 +1,9 @@
+#include <stdio.h>
 
+int main()
+{
+	char star[5] = "*****";
+	printf("%s\n%s\n%s\n%s\n%s\n",star,star,star,star,star);
+	
+	return 0;
+}
